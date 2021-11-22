@@ -1,0 +1,75 @@
+.container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #152559;
+}
+
+.firstLayer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.secondLayer {
+  display: flex;
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.imgUmbrella {
+  width: 35%;
+}
+.secondLyrTxt {
+  width: 40%;
+  color: #fff;
+}
+.submissionForm {
+  background-color: #149fb8;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+}
+.formWidthSet {
+  /* width: 70%; */
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user_field {
+  width: 90%;
+  padding: 5px;
+}
+.ig_input {
+  width: 100%;
+  height: 31px;
+  padding: 0 3px;
+  border-radius: 3px;
+  border: none;
+}
+.ig_txtArea {
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+}
+.input_field {
+  padding: 5px 0;
+}
+.submit_btn {
+  padding: 5px 0;
+}
+.btn {
+  width: 100%;
+  height: 31px;
+  background-color: #083659;
+  border: 1px solid #083659;
+  color: #fff;
+  border-radius: 3px;
+}
