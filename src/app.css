@@ -1,0 +1,22 @@
+.App {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.accordion-item {
+  background-color: #e2ecf6 !important;
+  margin: 1rem 0;
+
+}
+.accordion-button {
+  background-color: #ced4de !important;
+  transition: none !important;
+  font-weight: 700;
+  color:#083659 !important;
+  border:1px solid transparent !important;
+  height: 40px;
+}
+.accordion-button::after{
+  /* background-image: none !important; */
+  /* content: "\f078" !important; */
+}
